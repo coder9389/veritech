@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Unveiling Event</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white py-5">
+        <div class="container text-center">
+            <h1 class="display-3">Discover the Next Generation</h1>
+            <p class="lead">Join us for the exclusive unveiling event</p>
+            <a href="#signup" class="btn btn-primary btn-lg">Sign Up Now</a>
+        </div>
+    </header>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Key Features</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="feature1.jpg" class="card-img-top" alt="Feature 1">
+                        <div class="card-body">
+                            <h3 class="card-title">Feature 1</h3>
+                            <p class="card-text">Description of feature 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="feature2.jpg" class="card-img-top" alt="Feature 2">
+                        <div class="card-body">
+                            <h3 class="card-title">Feature 2</h3>
+                            <p class="card-text">Description of feature 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more features as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Watch the Teaser</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+                <!-- Embed video here -->
+                <iframe class="embed-responsive-item" src="https://youtu.be/g8S-Ee-TZzc?feature=shared" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="signup" class="bg-primary text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Get Exclusive Access</h2>
+            <p class="text-center mb-4">Sign up now to reserve your spot at the event and receive updates!</p>
+            <form action="subscribe.php" method="POST" class="text-center">
+                <div class="form-group d-inline-block mr-2">
+                    <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+                <button type="submit" class="btn btn-light">Sign Up</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Product Unveiling Event. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
